@@ -64,8 +64,8 @@ class CPYTROBlockchain:
     def __init__(self):
         self.chain = []
         self.pending_transactions = []
-        self.difficulty = 3
-        self.mining_reward = 50
+        self.difficulty = 2
+        self.mining_reward = 500
         self.total_supply = 210000000
         self.mined_coins = 0
         
